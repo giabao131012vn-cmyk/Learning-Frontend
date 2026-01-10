@@ -1,2 +1,2 @@
 # Learning-Frontend
-This is HTML and CSS Learning Repo
+This is Front-end learning Repo
