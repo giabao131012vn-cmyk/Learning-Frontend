@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="page-title">
+        <h1>Calculator</h1>
+    </header>
+    <div class="calculator-input-container">
+        <input id="input">
+    </div>
+    <div class="calculator-button-container">
+        <button id="seven" onclick='addString("7")'>7</button>
+        <button id="eight" onclick='addString("8")'>8</button>
+        <button id="nine" onclick='addString("9")'>9</button>
+        <button class="operation" id="divide" onclick='addString("÷")'>÷</button>
+        <button id="four" onclick='addString("4")'>4</button>
+        <button id="five" onclick='addString("5")'>5</button>
+        <button id="six" onclick='addString("6")'>6</button>
+        <button class="operation" id="multiply" onclick='addString("×")'>×</button>
+        <button id="one" onclick='addString("1")'>1</button>
+        <button id="two" onclick='addString("2")'>2</button>
+        <button id="three" onclick='addString("3")'>3</button>
+        <button id="minus" class="operation" onclick='addString("-")'>-</button>
+        <button id="zero" onclick='addString("0")'>0</button>
+        <button id="point" onclick='addString(".")'>.</button>
+        <button id="pi" onclick='addString("π")'>π</button>
+        <button id="add" class="operation" onclick='addString("+")'>+</button>
+        <button id="deleteAll" onclick='deleteAll()'>AC</button>
+        <button id="bracket" onclick='addString("(")'>(</button>
+        <button id="bracket" onclick='addString(")")'>)</button>
+        <button id="equal" onclick='calculate()'>=</button>
+    </div>
+    <script src="math.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
